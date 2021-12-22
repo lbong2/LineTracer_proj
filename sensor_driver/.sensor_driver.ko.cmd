@@ -1,0 +1,1 @@
+cmd_/home/pi/project/sensor_driver/sensor_driver.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/project/sensor_driver/sensor_driver.ko /home/pi/project/sensor_driver/sensor_driver.o /home/pi/project/sensor_driver/sensor_driver.mod.o;  true

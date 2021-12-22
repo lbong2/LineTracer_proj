@@ -1,0 +1,1 @@
+cmd_/home/pi/project/wave_driver/wave_driver.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/project/wave_driver/wave_driver.ko /home/pi/project/wave_driver/wave_driver.o /home/pi/project/wave_driver/wave_driver.mod.o;  true

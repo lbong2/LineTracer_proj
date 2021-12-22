@@ -1,0 +1,1 @@
+cmd_/home/pi/project/motor_driver/motor_driver.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/project/motor_driver/motor_driver.ko /home/pi/project/motor_driver/motor_driver.o /home/pi/project/motor_driver/motor_driver.mod.o;  true

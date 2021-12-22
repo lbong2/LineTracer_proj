@@ -1,0 +1,1 @@
+cmd_/home/pi/project/buzzer_driver/buzzer_driver.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/project/buzzer_driver/buzzer_driver.ko /home/pi/project/buzzer_driver/buzzer_driver.o /home/pi/project/buzzer_driver/buzzer_driver.mod.o;  true
